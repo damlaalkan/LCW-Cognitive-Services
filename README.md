@@ -37,5 +37,8 @@
 
 **LUIS**
 
-https://www.luis.ai/ 
+•	https://www.luis.ai/ linki kendi NLP modelinizi hazırlayabilirsiniz. Detaylı bilgi için https://docs.microsoft.com/en-us/azure/cognitive-services/luis/what-is-luis linki incelenebilir.
+
+•	Bugünkü örneğimizi, “Import new app” seçeneği üzerinden paylaştığımız json dosyasını indirerek üzerinde çalışabilir, yemek, eğitim ve ulaşım gibi tanımlanmış olan intentleri test edebilirsiniz.
+
 
