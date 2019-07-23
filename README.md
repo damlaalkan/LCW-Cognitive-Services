@@ -34,3 +34,8 @@
 
 •	TensorFlow modelini export ederseniz  https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/export-model-python linkinden faydalanabilirsiniz.
 
+
+**LUIS**
+
+https://www.luis.ai/ 
+
