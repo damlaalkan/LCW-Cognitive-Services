@@ -1,6 +1,7 @@
 # LCW-Cognitive-Services
 
-Intelligent Kiosk 
+**Intelligent Kiosk**
+
 •	Microsoft Cognitive Servisler üzerine kurulu iş akışlarını ve deneyimlerini gösteren bir demolar koleksiyonudur. Github linkinden veya Microsoft Store’dan indirilebilir.
 
 •	Github: https://github.com/Microsoft/Cognitive-Samples-IntelligentKiosk
@@ -8,11 +9,13 @@ Intelligent Kiosk
 •	Microsoft Store: https://www.microsoft.com/en-us/p/intelligent-kiosk/9nblggh5qd84?activetab=pivot%3Aoverviewtab
 
 
-FACE  
+**FACE**  
+
 •	Face detect, identify, emotion gibi API’ların çağırıldığı, person group oluşturma ve train etme gibi özellikleri içeren projenin linki: https://github.com/gpeipman/CognitiveServicesDemo
 
 
-OCR 
+**OCR**
+
 •	Computer Vision servisinin kullanıldığı, fiş üzerindeki tarihi, fiş numarasını ve toplam tutarını hem json formatında tutan ve csv dosyasına aktaran projenin linki: https://github.com/damlaalkan/OCR_Receipt_Recognition
 
 •	https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/ linkindeki “Read both printed and handwritten text in images” kısmında OCR demosu ile karakterlerin nasıl okunduğu incelenebilir.
@@ -21,7 +24,8 @@ OCR
 
 •	Yukarıda paylaştığım Fiş Tanıma projesinde kullandığımız method “OCR” yerine “RecognizeText” methodudur. OCR servisinin diğer methodlarını incelemek için ise https://westcentralus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fc linkinden faydalanılabilir.
 
-Custom Vision
+**Custom Vision**
+
 •	https://www.customvision.ai/ classification ve object detection modelleri oluşturulabilecek platform.
 
 •	Publish ettikten sonra elde ettiğiniz Prediction Key ve Prediction URL kullanarak çalıştırabileceğiniz console application (C#) : https://github.com/damlaalkan/Custom_Vision_Prediction
