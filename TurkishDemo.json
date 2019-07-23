@@ -1,0 +1,354 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "TurkishDemo",
+  "desc": "",
+  "culture": "tr-tr",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "Eğitim"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Selamlama"
+    },
+    {
+      "name": "Ulaşım"
+    },
+    {
+      "name": "Yemek"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Günler",
+      "roles": []
+    },
+    {
+      "name": "şehir",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "İstemek",
+      "mode": true,
+      "words": "istiyorum, ihtiyacım var, gerekli, gerekiyor, lazım",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "açım",
+      "intent": "Yemek",
+      "entities": []
+    },
+    {
+      "text": "ankara'dan istanbul'a nasıl giderim?",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "şehir",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "şehir",
+          "startPos": 11,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "bugün istanbul'a nasıl geçerim?",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "Günler",
+          "startPos": 0,
+          "endPos": 4
+        },
+        {
+          "entity": "şehir",
+          "startPos": 6,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "bugün istanbul'a nasıl giderim?",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "Günler",
+          "startPos": 0,
+          "endPos": 4
+        },
+        {
+          "entity": "şehir",
+          "startPos": 6,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "bugün izmir'e nasıl giderim",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "Günler",
+          "startPos": 0,
+          "endPos": 4
+        },
+        {
+          "entity": "şehir",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "bugün yemekte ne var?",
+      "intent": "Yemek",
+      "entities": []
+    },
+    {
+      "text": "ders ne zaman?",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "ders takvimi?",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "dersleri öğrenebilir miyim?",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "eğitim takvimi ne zaman?",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "eğitim takvimi nedir?",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "eğitimler hakkında bilgi almak istiyorum",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "eğitimler ne zaman olucak",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "eğitmen listesini rica ediyorum",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "eğitmenler?",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "eğitmenleri öğrenebilir miyim?",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "istanbul'a gitmek için ne yapmalıyım?",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "şehir",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "istanbul'a nasıl giderim?",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "şehir",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "istanbul'a varmak istiyorum",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "şehir",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "istanbul'dan izmir'e gitmek isityorum?",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "şehir",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "kurslar hakkında bilgi istiyorum",
+      "intent": "Eğitim",
+      "entities": []
+    },
+    {
+      "text": "merhaba",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "merhabalar",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "mrb",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "sa",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "selam",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "selamın aleyküm",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "selamlar",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "slm",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "şşt",
+      "intent": "Selamlama",
+      "entities": []
+    },
+    {
+      "text": "yarın istanbul'a nasıl geçerim?",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "Günler",
+          "startPos": 0,
+          "endPos": 4
+        },
+        {
+          "entity": "şehir",
+          "startPos": 6,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "yarın istanbul'a nasıl giderim?",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "Günler",
+          "startPos": 0,
+          "endPos": 4
+        },
+        {
+          "entity": "şehir",
+          "startPos": 6,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "yarın izmir'e nasıl giderim?",
+      "intent": "Ulaşım",
+      "entities": [
+        {
+          "entity": "Günler",
+          "startPos": 0,
+          "endPos": 4
+        },
+        {
+          "entity": "şehir",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "yarın yemekte ne var?",
+      "intent": "Yemek",
+      "entities": []
+    },
+    {
+      "text": "yemek ne",
+      "intent": "Yemek",
+      "entities": []
+    },
+    {
+      "text": "yemekhanede ne çıkıyor",
+      "intent": "Yemek",
+      "entities": []
+    },
+    {
+      "text": "yemekhanede ne var",
+      "intent": "Yemek",
+      "entities": []
+    },
+    {
+      "text": "yemekte ne var",
+      "intent": "Yemek",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
